@@ -10,3 +10,9 @@ C:\Users\User\source\repos\2pk1_ZgumennikovMark\2pk1_ZgumennikovMark\2pk1_Zgumen
 C:\Users\User\source\repos\2pk1_ZgumennikovMark\2pk1_ZgumennikovMark\2pk1_ZgumennikovMark\pz_6\obj\Debug\netcoreapp3.1\pz_6.dll
 C:\Users\User\source\repos\2pk1_ZgumennikovMark\2pk1_ZgumennikovMark\2pk1_ZgumennikovMark\pz_6\obj\Debug\netcoreapp3.1\pz_6.pdb
 C:\Users\User\source\repos\2pk1_ZgumennikovMark\2pk1_ZgumennikovMark\2pk1_ZgumennikovMark\pz_6\obj\Debug\netcoreapp3.1\pz_6.genruntimeconfig.cache
+C:\Users\User\source\repos\2pk1_ZgumennikovMark\2pk1_ZgumennikovMark\pz_6\obj\Debug\netcoreapp3.1\pz_6.csprojAssemblyReference.cache
+C:\Users\User\source\repos\2pk1_ZgumennikovMark\2pk1_ZgumennikovMark\pz_6\obj\Debug\netcoreapp3.1\pz_6.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\2pk1_ZgumennikovMark\2pk1_ZgumennikovMark\pz_6\obj\Debug\netcoreapp3.1\pz_6.AssemblyInfo.cs
+C:\Users\User\source\repos\2pk1_ZgumennikovMark\2pk1_ZgumennikovMark\pz_6\obj\Debug\netcoreapp3.1\pz_6.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\2pk1_ZgumennikovMark\2pk1_ZgumennikovMark\pz_6\obj\Debug\netcoreapp3.1\pz_6.dll
+C:\Users\User\source\repos\2pk1_ZgumennikovMark\2pk1_ZgumennikovMark\pz_6\obj\Debug\netcoreapp3.1\pz_6.pdb
