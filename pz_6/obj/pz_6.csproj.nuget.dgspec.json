@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\2pk1_ZgumennikovMark\\2pk1_ZgumennikovMark\\pz_6\\pz_6.csproj": {}
+    "C:\\Users\\User\\source\\repos\\2pk1_ZgumennikovMark\\pz_6\\pz_6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\2pk1_ZgumennikovMark\\2pk1_ZgumennikovMark\\pz_6\\pz_6.csproj": {
+    "C:\\Users\\User\\source\\repos\\2pk1_ZgumennikovMark\\pz_6\\pz_6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\2pk1_ZgumennikovMark\\2pk1_ZgumennikovMark\\pz_6\\pz_6.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\2pk1_ZgumennikovMark\\pz_6\\pz_6.csproj",
         "projectName": "pz_6",
-        "projectPath": "C:\\Users\\User\\source\\repos\\2pk1_ZgumennikovMark\\2pk1_ZgumennikovMark\\pz_6\\pz_6.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\2pk1_ZgumennikovMark\\pz_6\\pz_6.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\2pk1_ZgumennikovMark\\2pk1_ZgumennikovMark\\pz_6\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\2pk1_ZgumennikovMark\\pz_6\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\Visual studio komponenti2\\NuGetPackages"
