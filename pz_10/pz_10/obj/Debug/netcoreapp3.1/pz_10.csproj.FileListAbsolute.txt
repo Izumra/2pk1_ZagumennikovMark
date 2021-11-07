@@ -1,0 +1,13 @@
+C:\Users\User\source\repos\pz_10\pz_10\bin\Debug\netcoreapp3.1\pz_10.exe
+C:\Users\User\source\repos\pz_10\pz_10\bin\Debug\netcoreapp3.1\pz_10.deps.json
+C:\Users\User\source\repos\pz_10\pz_10\bin\Debug\netcoreapp3.1\pz_10.runtimeconfig.json
+C:\Users\User\source\repos\pz_10\pz_10\bin\Debug\netcoreapp3.1\pz_10.runtimeconfig.dev.json
+C:\Users\User\source\repos\pz_10\pz_10\bin\Debug\netcoreapp3.1\pz_10.dll
+C:\Users\User\source\repos\pz_10\pz_10\bin\Debug\netcoreapp3.1\pz_10.pdb
+C:\Users\User\source\repos\pz_10\pz_10\obj\Debug\netcoreapp3.1\pz_10.csprojAssemblyReference.cache
+C:\Users\User\source\repos\pz_10\pz_10\obj\Debug\netcoreapp3.1\pz_10.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\pz_10\pz_10\obj\Debug\netcoreapp3.1\pz_10.AssemblyInfo.cs
+C:\Users\User\source\repos\pz_10\pz_10\obj\Debug\netcoreapp3.1\pz_10.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\pz_10\pz_10\obj\Debug\netcoreapp3.1\pz_10.dll
+C:\Users\User\source\repos\pz_10\pz_10\obj\Debug\netcoreapp3.1\pz_10.pdb
+C:\Users\User\source\repos\pz_10\pz_10\obj\Debug\netcoreapp3.1\pz_10.genruntimeconfig.cache
