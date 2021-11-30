@@ -1,0 +1,13 @@
+C:\Users\zagumennikov.my1228\source\repos\pz_18\pz_18\bin\Debug\netcoreapp3.1\pz_18.exe
+C:\Users\zagumennikov.my1228\source\repos\pz_18\pz_18\bin\Debug\netcoreapp3.1\pz_18.deps.json
+C:\Users\zagumennikov.my1228\source\repos\pz_18\pz_18\bin\Debug\netcoreapp3.1\pz_18.runtimeconfig.json
+C:\Users\zagumennikov.my1228\source\repos\pz_18\pz_18\bin\Debug\netcoreapp3.1\pz_18.runtimeconfig.dev.json
+C:\Users\zagumennikov.my1228\source\repos\pz_18\pz_18\bin\Debug\netcoreapp3.1\pz_18.dll
+C:\Users\zagumennikov.my1228\source\repos\pz_18\pz_18\bin\Debug\netcoreapp3.1\pz_18.pdb
+C:\Users\zagumennikov.my1228\source\repos\pz_18\pz_18\obj\Debug\netcoreapp3.1\pz_18.csprojAssemblyReference.cache
+C:\Users\zagumennikov.my1228\source\repos\pz_18\pz_18\obj\Debug\netcoreapp3.1\pz_18.AssemblyInfoInputs.cache
+C:\Users\zagumennikov.my1228\source\repos\pz_18\pz_18\obj\Debug\netcoreapp3.1\pz_18.AssemblyInfo.cs
+C:\Users\zagumennikov.my1228\source\repos\pz_18\pz_18\obj\Debug\netcoreapp3.1\pz_18.csproj.CoreCompileInputs.cache
+C:\Users\zagumennikov.my1228\source\repos\pz_18\pz_18\obj\Debug\netcoreapp3.1\pz_18.dll
+C:\Users\zagumennikov.my1228\source\repos\pz_18\pz_18\obj\Debug\netcoreapp3.1\pz_18.pdb
+C:\Users\zagumennikov.my1228\source\repos\pz_18\pz_18\obj\Debug\netcoreapp3.1\pz_18.genruntimeconfig.cache
