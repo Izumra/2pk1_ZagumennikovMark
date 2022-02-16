@@ -1,0 +1,13 @@
+C:\Users\User\source\repos\Address\Address\bin\Debug\netcoreapp3.1\Address.exe
+C:\Users\User\source\repos\Address\Address\bin\Debug\netcoreapp3.1\Address.deps.json
+C:\Users\User\source\repos\Address\Address\bin\Debug\netcoreapp3.1\Address.runtimeconfig.json
+C:\Users\User\source\repos\Address\Address\bin\Debug\netcoreapp3.1\Address.runtimeconfig.dev.json
+C:\Users\User\source\repos\Address\Address\bin\Debug\netcoreapp3.1\Address.dll
+C:\Users\User\source\repos\Address\Address\bin\Debug\netcoreapp3.1\Address.pdb
+C:\Users\User\source\repos\Address\Address\obj\Debug\netcoreapp3.1\Address.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Address\Address\obj\Debug\netcoreapp3.1\Address.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Address\Address\obj\Debug\netcoreapp3.1\Address.AssemblyInfo.cs
+C:\Users\User\source\repos\Address\Address\obj\Debug\netcoreapp3.1\Address.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Address\Address\obj\Debug\netcoreapp3.1\Address.dll
+C:\Users\User\source\repos\Address\Address\obj\Debug\netcoreapp3.1\Address.pdb
+C:\Users\User\source\repos\Address\Address\obj\Debug\netcoreapp3.1\Address.genruntimeconfig.cache
