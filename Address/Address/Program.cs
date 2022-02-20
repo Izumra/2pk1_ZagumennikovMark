@@ -4,47 +4,133 @@ namespace Address
 {
     class Address
     {
-        public string _country;
-        public string _city;
-        public string _street;
-        public int _house;
-        public int _flat;
+        public string Country;
+        public string City;
+        public string Street;
+        public int House;
+        public int Flat;
+        static int counterHouse;
+        static int counterObject;
 
+        public string country
+        {
+            get { return Country; }
+            set
+            {
+                if (value == "") Country="Error.";
+                else
+                {
+                    Country = value;
+                }
+            }
+        }
+        public string city
+        {
+            get { return City; }
+            set
+            {
+                if (value == "") City = "Error.";
+                else
+                {
+                    City = value;
+                }
+            }
+        }
+        public string street
+        {
+            get { return Street; }
+            set
+            {
+                if (value == "") Street = "Error.";
+                else
+                {
+                    Street = value;
+                }
+            }
+        }
+        public int house
+        {
+            get { return House; }
+            set
+            {
+                if (value < 100 && value>0)
+                {
+                    House = value;
+                }
+                else
+                {
+                    House = 0;
+                    Console.WriteLine("Значение дома превосходит допустимый предел \n");
+                }
+            }
+        }
+        public int flat
+        {
+            get { return Flat; }
+            set
+            {
+                if (value < 100 && value > 0)
+                {
+                    Flat = value;
+                }
+                else
+                {
+                    Console.WriteLine("Значение квартиры превосходит допустимый предел \n");
+                    Flat = 0;
+                }
+            }
+        }
         public Address()
         {
-            _country = "Неизвестно";
-            _city = "Неизвестно";
-            _street = "Неизвестно";
-            _house = 0;
-            _flat = 0;
+            country = "Неизвестно";
+            city = "Неизвестно";
+            street = "Неизвестно";
+            house = 0;
+            flat = 0;
+            if (house % 2 == 0 && house != 0) counterHouse++;
+            counterObject++;
         }
-        public Address(string country, string city, string street)
+        public Address(string _country, string _city, string _street)
         {
-            _country = country;
-            _street = street;
-            _city = city;
-            _house = 0;
-            _flat = 0;
+            country = _country;
+            street = _street;
+            city = _city;
+            house = 0;
+            flat = 0;
+            if (house % 2 == 0 && house!=0) counterHouse++;
+            counterObject++;
         }
-        public Address(int house, int flat)
+        public Address(int _house, int _flat)
         {
-            _country = "Неизвестно";
-            _city = "Неизвестно";
-            _street = "Неизвестно";
-            _house = house;
-            _flat = flat;
+            country = "Неизвестно";
+            city = "Неизвестно";
+            street = "Неизвестно";
+            house = _house;
+            flat = _flat;
+            if (_house % 2 == 0 && house != 0) counterHouse++;
+            counterObject++;
         }
-        public Address(string country, string city, string street, int house, int flat)
+        public Address(string _country, string _city, string _street, int _house, int _flat)
         {
-            _country = country;
-            _street = street;
-            _city = city;
-            _house = house;
-            _flat = flat;
+            country = _country;
+            street = _street;
+            city = _city;
+            house = _house;
+            flat = _flat;
+            if (_house % 2 == 0 && house != 0) counterHouse++;
+            counterObject++;
         }
         public void GetAddress()
         {
-            Console.WriteLine($"Страна проживания:{_country} \nГород проживания:{_city} \nУлица проживания:{_street} \nДом:{_house} \nКвартира:{_flat}");
+            Console.WriteLine($"Страна проживания:{country} \nГород проживания:{city} \nУлица проживания:{street} \nДом:{house} \nКвартира:{flat}");
+        }
+        public void GetHouses()
+        {
+            Console.WriteLine($"Четных домов:{counterHouse}");
+        }
+        public void GetObjects()
+        {
+            Console.WriteLine($"Объектов:{counterObject}");
         }
     }
     class Program
@@ -94,18 +180,42 @@ namespace Address
                     case "1":
                         Address patient = new Address();
                         patient.GetAddress();
+                        Console.WriteLine("Хотите узнать количество четных домов?Yes/No");
+                        string questen=Console.ReadLine();
+                        if (questen == "Yes") patient.GetHouses();
+                        Console.WriteLine("Хотите узнать количество объектов?Yes/No");
+                        string questen5 = Console.ReadLine();
+                        if (questen5 == "Yes") patient.GetObjects();
                         break;
                     case "2":
                         Address patient2 = new Address(country, city, street);
                         patient2.GetAddress();
+                        Console.WriteLine("Хотите узнать количество четных домов?Yes/No");
+                        string questen1 = Console.ReadLine();
+                        if (questen1 == "Yes") patient2.GetHouses();
+                        Console.WriteLine("Хотите узнать количество объектов?Yes/No");
+                        string questen6 = Console.ReadLine();
+                        if (questen6 == "Yes") patient2.GetObjects();
                         break;
                     case "3":
                         Address patient3 = new Address(K, M);
                         patient3.GetAddress();
+                        Console.WriteLine("Хотите узнать количество четных домов?Yes/No");
+                        string questen2 = Console.ReadLine();
+                        if (questen2 == "Yes") patient3.GetHouses();
+                        Console.WriteLine("Хотите узнать количество объектов?Yes/No");
+                        string questen7 = Console.ReadLine();
+                        if (questen7 == "Yes") patient3.GetObjects();
                         break;
                     case "4":
                         Address patient4 = new Address(country, city, street, K, M);
                         patient4.GetAddress();
+                        Console.WriteLine("Хотите узнать количество четных домов?Yes/No");
+                        string questen3 = Console.ReadLine();
+                        if (questen3 == "Yes") patient4.GetHouses();
+                        Console.WriteLine("Хотите узнать количество объектов?Yes/No");
+                        string questen8 = Console.ReadLine();
+                        if (questen8 == "Yes") patient4.GetObjects();
                         break;
                 }
             }
