@@ -2,7 +2,7 @@
 
 namespace Address
 {
-    class Address
+    class Addres
     {
         public string Country;
         public string City;
@@ -80,7 +80,7 @@ namespace Address
                 }
             }
         }
-        public Address()
+        public Addres()
         {
             country = "Неизвестно";
             city = "Неизвестно";
@@ -90,7 +90,7 @@ namespace Address
             if (house % 2 == 0 && house != 0) counterHouse++;
             counterObject++;
         }
-        public Address(string _country, string _city, string _street)
+        public Addres(string _country, string _city, string _street)
         {
             country = _country;
             street = _street;
@@ -100,7 +100,7 @@ namespace Address
             if (house % 2 == 0 && house!=0) counterHouse++;
             counterObject++;
         }
-        public Address(int _house, int _flat)
+        public Addres(int _house, int _flat)
         {
             country = "Неизвестно";
             city = "Неизвестно";
@@ -110,7 +110,7 @@ namespace Address
             if (_house % 2 == 0 && house != 0) counterHouse++;
             counterObject++;
         }
-        public Address(string _country, string _city, string _street, int _house, int _flat)
+        public Addres(string _country, string _city, string _street, int _house, int _flat)
         {
             country = _country;
             street = _street;
@@ -137,7 +137,7 @@ namespace Address
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < 8; i++)
             {
                 Console.WriteLine("Страна");
                 string country = Console.ReadLine();
@@ -175,48 +175,105 @@ namespace Address
                 Console.WriteLine("");
                 Console.WriteLine("Введите номер конструктора");
                 string r = Console.ReadLine();
-                switch (r)
+                if (i < 4)
                 {
-                    case "1":
-                        Address patient = new Address();
-                        patient.GetAddress();
-                        Console.WriteLine("Хотите узнать количество четных домов?Yes/No");
-                        string questen=Console.ReadLine();
-                        if (questen == "Yes") patient.GetHouses();
-                        Console.WriteLine("Хотите узнать количество объектов?Yes/No");
-                        string questen5 = Console.ReadLine();
-                        if (questen5 == "Yes") patient.GetObjects();
-                        break;
-                    case "2":
-                        Address patient2 = new Address(country, city, street);
-                        patient2.GetAddress();
-                        Console.WriteLine("Хотите узнать количество четных домов?Yes/No");
-                        string questen1 = Console.ReadLine();
-                        if (questen1 == "Yes") patient2.GetHouses();
-                        Console.WriteLine("Хотите узнать количество объектов?Yes/No");
-                        string questen6 = Console.ReadLine();
-                        if (questen6 == "Yes") patient2.GetObjects();
-                        break;
-                    case "3":
-                        Address patient3 = new Address(K, M);
-                        patient3.GetAddress();
-                        Console.WriteLine("Хотите узнать количество четных домов?Yes/No");
-                        string questen2 = Console.ReadLine();
-                        if (questen2 == "Yes") patient3.GetHouses();
-                        Console.WriteLine("Хотите узнать количество объектов?Yes/No");
-                        string questen7 = Console.ReadLine();
-                        if (questen7 == "Yes") patient3.GetObjects();
-                        break;
-                    case "4":
-                        Address patient4 = new Address(country, city, street, K, M);
-                        patient4.GetAddress();
-                        Console.WriteLine("Хотите узнать количество четных домов?Yes/No");
-                        string questen3 = Console.ReadLine();
-                        if (questen3 == "Yes") patient4.GetHouses();
-                        Console.WriteLine("Хотите узнать количество объектов?Yes/No");
-                        string questen8 = Console.ReadLine();
-                        if (questen8 == "Yes") patient4.GetObjects();
-                        break;
+                    switch (r)
+                    {
+                        case "1":
+                            Addres patient = new Addres();
+                            patient.GetAddress();
+                            Console.WriteLine("Хотите узнать количество четных домов?Yes/No");
+                            string questen = Console.ReadLine();
+                            if (questen == "Yes") patient.GetHouses();
+                            Console.WriteLine("Хотите узнать количество объектов?Yes/No");
+                            string questen5 = Console.ReadLine();
+                            if (questen5 == "Yes") patient.GetObjects();
+                            break;
+                        case "2":
+                            Addres patient2 = new Addres(country, city, street);
+                            patient2.GetAddress();
+                            Console.WriteLine("Хотите узнать количество четных домов?Yes/No");
+                            string questen1 = Console.ReadLine();
+                            if (questen1 == "Yes") patient2.GetHouses();
+                            Console.WriteLine("Хотите узнать количество объектов?Yes/No");
+                            string questen6 = Console.ReadLine();
+                            if (questen6 == "Yes") patient2.GetObjects();
+                            break;
+                        case "3":
+                            Addres patient3 = new Addres(K, M);
+                            patient3.GetAddress();
+                            Console.WriteLine("Хотите узнать количество четных домов?Yes/No");
+                            string questen2 = Console.ReadLine();
+                            if (questen2 == "Yes") patient3.GetHouses();
+                            Console.WriteLine("Хотите узнать количество объектов?Yes/No");
+                            string questen7 = Console.ReadLine();
+                            if (questen7 == "Yes") patient3.GetObjects();
+                            break;
+                        case "4":
+                            Addres patient4 = new Addres(country, city, street, K, M);
+                            patient4.GetAddress();
+                            Console.WriteLine("Хотите узнать количество четных домов?Yes/No");
+                            string questen3 = Console.ReadLine();
+                            if (questen3 == "Yes") patient4.GetHouses();
+                            Console.WriteLine("Хотите узнать количество объектов?Yes/No");
+                            string questen8 = Console.ReadLine();
+                            if (questen8 == "Yes") patient4.GetObjects();
+                            break;
+                    }
+                }
+                else
+                {
+                    switch (r)
+                    {
+                        case "1":
+                            Console.WriteLine("Введите причину удаления адреса: ");
+                            string reason = Console.ReadLine();
+                            RemoteAddress patient = new RemoteAddress(reason);
+                            patient.GetAddress();
+                            Console.WriteLine("Хотите узнать количество четных домов?Yes/No");
+                            string questen = Console.ReadLine();
+                            if (questen == "Yes") patient.GetHouses();
+                            Console.WriteLine("Хотите узнать количество объектов?Yes/No");
+                            string questen5 = Console.ReadLine();
+                            if (questen5 == "Yes") patient.GetObjects();
+                            break;
+                        case "2":
+                            Console.WriteLine("Введите причину удаления адреса: ");
+                            string reason1 = Console.ReadLine();
+                            RemoteAddress patient2 = new RemoteAddress(country, city, street,reason1);
+                            patient2.GetAddress();
+                            Console.WriteLine("Хотите узнать количество четных домов?Yes/No");
+                            string questen1 = Console.ReadLine();
+                            if (questen1 == "Yes") patient2.GetHouses();
+                            Console.WriteLine("Хотите узнать количество объектов?Yes/No");
+                            string questen6 = Console.ReadLine();
+                            if (questen6 == "Yes") patient2.GetObjects();
+                            break;
+                        case "3":
+                            Console.WriteLine("Введите причину удаления адреса: ");
+                            string reason2 = Console.ReadLine();
+                            RemoteAddress patient3 = new RemoteAddress(K, M,reason2);
+                            patient3.GetAddress();
+                            Console.WriteLine("Хотите узнать количество четных домов?Yes/No");
+                            string questen2 = Console.ReadLine();
+                            if (questen2 == "Yes") patient3.GetHouses();
+                            Console.WriteLine("Хотите узнать количество объектов?Yes/No");
+                            string questen7 = Console.ReadLine();
+                            if (questen7 == "Yes") patient3.GetObjects();
+                            break;
+                        case "4":
+                            Console.WriteLine("Введите причину удаления адреса: ");
+                            string reason3 = Console.ReadLine();
+                            RemoteAddress patient4 = new RemoteAddress(country, city, street, K, M,reason3);
+                            patient4.GetAddress();
+                            Console.WriteLine("Хотите узнать количество четных домов?Yes/No");
+                            string questen3 = Console.ReadLine();
+                            if (questen3 == "Yes") patient4.GetHouses();
+                            Console.WriteLine("Хотите узнать количество объектов?Yes/No");
+                            string questen8 = Console.ReadLine();
+                            if (questen8 == "Yes") patient4.GetObjects();
+                            break;
+                    }
                 }
             }
         }
