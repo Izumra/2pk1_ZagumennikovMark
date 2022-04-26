@@ -4,27 +4,31 @@ namespace delegata
 {
     class Program
 {
-    delegate int myDelegate(char A, string B);
-    static int countSymbols(char b,string a)
-    {
-            int g = 0;
-            char[] mas = a.ToCharArray();
-            for (int i=0; i<mas.Length;i++)
+    delegate void myDelegate(char A);
+
+        class myClass
+        {
+            public char i;
+            public void indexFirst(char b)
             {
-                if (mas[i] == b) g++;
+                i = b;
             }
-            return g;
-    }
-    static int indexFirst(char b, string a)
-    {
-            return a.IndexOf(b);
-    }
+        }
     static void Main(string[] args)
     {
-            myDelegate first = new myDelegate(countSymbols);
-            Console.WriteLine(first('u', "Purple"));
-            myDelegate twelw = new myDelegate(indexFirst);
-            Console.WriteLine(twelw('u', "Purple"));
+            var cell = new myClass[5];
+            for (int h = 0; h < cell.Length; h++)
+            {
+                cell[h] = new myClass();
+                myDelegate twelw = new myDelegate(cell[h].indexFirst);
+                twelw('u');
+            }
+            
+            
+            for (int h=0;h<cell.Length;h++)
+            {
+                Console.WriteLine(cell[h].i);
+            }
         }
 }
 }
