@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ПЗ_10_Работа_С_СТРУКТУРАМИ/1.0.0": {
+        "runtime": {
+          "ПЗ_10_Работа_С_СТРУКТУРАМИ.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ПЗ_10_Работа_С_СТРУКТУРАМИ/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

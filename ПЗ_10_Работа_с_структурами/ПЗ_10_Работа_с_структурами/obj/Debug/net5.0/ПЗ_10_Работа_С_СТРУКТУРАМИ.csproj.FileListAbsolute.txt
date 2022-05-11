@@ -1,0 +1,16 @@
+C:\Users\User\source\repos\ПЗ_10_Работа_С_СТРУКТУРАМИ\ПЗ_10_Работа_С_СТРУКТУРАМИ\obj\Debug\net5.0\ПЗ_10_Работа_С_СТРУКТУРАМИ.csprojAssemblyReference.cache
+C:\Users\User\source\repos\ПЗ_10_Работа_С_СТРУКТУРАМИ\ПЗ_10_Работа_С_СТРУКТУРАМИ\obj\Debug\net5.0\ПЗ_10_Работа_С_СТРУКТУРАМИ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\ПЗ_10_Работа_С_СТРУКТУРАМИ\ПЗ_10_Работа_С_СТРУКТУРАМИ\obj\Debug\net5.0\ПЗ_10_Работа_С_СТРУКТУРАМИ.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ПЗ_10_Работа_С_СТРУКТУРАМИ\ПЗ_10_Работа_С_СТРУКТУРАМИ\obj\Debug\net5.0\ПЗ_10_Работа_С_СТРУКТУРАМИ.AssemblyInfo.cs
+C:\Users\User\source\repos\ПЗ_10_Работа_С_СТРУКТУРАМИ\ПЗ_10_Работа_С_СТРУКТУРАМИ\obj\Debug\net5.0\ПЗ_10_Работа_С_СТРУКТУРАМИ.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ПЗ_10_Работа_С_СТРУКТУРАМИ\ПЗ_10_Работа_С_СТРУКТУРАМИ\bin\Debug\net5.0\ПЗ_10_Работа_С_СТРУКТУРАМИ.exe
+C:\Users\User\source\repos\ПЗ_10_Работа_С_СТРУКТУРАМИ\ПЗ_10_Работа_С_СТРУКТУРАМИ\bin\Debug\net5.0\ПЗ_10_Работа_С_СТРУКТУРАМИ.deps.json
+C:\Users\User\source\repos\ПЗ_10_Работа_С_СТРУКТУРАМИ\ПЗ_10_Работа_С_СТРУКТУРАМИ\bin\Debug\net5.0\ПЗ_10_Работа_С_СТРУКТУРАМИ.runtimeconfig.json
+C:\Users\User\source\repos\ПЗ_10_Работа_С_СТРУКТУРАМИ\ПЗ_10_Работа_С_СТРУКТУРАМИ\bin\Debug\net5.0\ПЗ_10_Работа_С_СТРУКТУРАМИ.runtimeconfig.dev.json
+C:\Users\User\source\repos\ПЗ_10_Работа_С_СТРУКТУРАМИ\ПЗ_10_Работа_С_СТРУКТУРАМИ\bin\Debug\net5.0\ПЗ_10_Работа_С_СТРУКТУРАМИ.dll
+C:\Users\User\source\repos\ПЗ_10_Работа_С_СТРУКТУРАМИ\ПЗ_10_Работа_С_СТРУКТУРАМИ\bin\Debug\net5.0\ref\ПЗ_10_Работа_С_СТРУКТУРАМИ.dll
+C:\Users\User\source\repos\ПЗ_10_Работа_С_СТРУКТУРАМИ\ПЗ_10_Работа_С_СТРУКТУРАМИ\bin\Debug\net5.0\ПЗ_10_Работа_С_СТРУКТУРАМИ.pdb
+C:\Users\User\source\repos\ПЗ_10_Работа_С_СТРУКТУРАМИ\ПЗ_10_Работа_С_СТРУКТУРАМИ\obj\Debug\net5.0\ПЗ_10_Работа_С_СТРУКТУРАМИ.dll
+C:\Users\User\source\repos\ПЗ_10_Работа_С_СТРУКТУРАМИ\ПЗ_10_Работа_С_СТРУКТУРАМИ\obj\Debug\net5.0\ref\ПЗ_10_Работа_С_СТРУКТУРАМИ.dll
+C:\Users\User\source\repos\ПЗ_10_Работа_С_СТРУКТУРАМИ\ПЗ_10_Работа_С_СТРУКТУРАМИ\obj\Debug\net5.0\ПЗ_10_Работа_С_СТРУКТУРАМИ.pdb
+C:\Users\User\source\repos\ПЗ_10_Работа_С_СТРУКТУРАМИ\ПЗ_10_Работа_С_СТРУКТУРАМИ\obj\Debug\net5.0\ПЗ_10_Работа_С_СТРУКТУРАМИ.genruntimeconfig.cache
