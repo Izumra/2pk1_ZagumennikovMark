@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ПЗ_9_События</id>
+    <version>1.0.0</version>
+    <authors>ПЗ_9_События</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\User\source\repos\ПЗ_9_События\ПЗ_9_События\bin\Debug\netcoreapp3.1\ПЗ_9_События.runtimeconfig.json" target="lib\netcoreapp3.1\ПЗ_9_События.runtimeconfig.json" />
+    <file src="C:\Users\User\source\repos\ПЗ_9_События\ПЗ_9_События\bin\Debug\netcoreapp3.1\ПЗ_9_События.dll" target="lib\netcoreapp3.1\ПЗ_9_События.dll" />
+  </files>
+</package>
